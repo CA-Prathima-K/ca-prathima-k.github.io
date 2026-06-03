@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.7;
+}
+
+header{
+    background:#12355b;
+    color:white;
+    padding:50px 20px;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.profile-pic{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+}
+
+h1{
+    font-size:42px;
+}
+
+.designation{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.contact-buttons{
+    margin-top:20px;
+}
+
+.contact-buttons a{
+    text-decoration:none;
+    color:white;
+    background:#1f6fb2;
+    padding:10px 15px;
+    border-radius:6px;
+    margin-right:10px;
+    display:inline-block;
+    margin-top:10px;
+}
+
+main{
+    max-width:1100px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    margin-bottom:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.card h2{
+    color:#12355b;
+    margin-bottom:20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
+
+.grid div{
+    background:#eef4fb;
+    padding:15px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#12355b;
+    color:white;
+}
+
+@media(max-width:768px){
+
+    h1{
+        font-size:30px;
+    }
+
+    .hero{
+        text-align:center;
+        justify-content:center;
+    }
+
+}
